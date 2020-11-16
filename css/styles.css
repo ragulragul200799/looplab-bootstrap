@@ -1,0 +1,44 @@
+body{
+    background-color: #333;
+    color: white;
+
+}
+.navbar{
+    border-bottom: 3px solid gray;
+    opacity: 0.8;
+}
+
+#home-section{
+    background: url('../images/home.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    min-height: 600px;
+}
+
+#home-section .display-overlay{
+    background:rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+
+}
+
+#home-section .home-inner{
+    padding-top: 150px;
+}
+
+#body-content{
+    justify-content: center;
+}
+
+#explore .explore_img{
+    width: 100px;
+}
+
+#explore .list_group{
+    height: 300px;
+    align-items: center;
+}
